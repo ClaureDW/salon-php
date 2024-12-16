@@ -35,7 +35,7 @@ class Email
 
         // Configurar el contenido del mail
         $phpmailer->setFrom('admin@appsalon.com');
-        $phpmailer->addAddress('admin@appsalon.com', 'AppSalon.com');
+        $phpmailer->addAddress($this->email, $this->nombre);
         $phpmailer->Subject = 'Confirma tu cuenta';
 
         // Habilitar HTML
