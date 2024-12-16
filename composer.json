@@ -1,0 +1,24 @@
+{
+    "name": "cysco/appsalon",
+    "description": "Creando un Proyecto con POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daniel Claure",
+            "email": "danielclaure982@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.9",
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    }
+}
